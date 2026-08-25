@@ -482,10 +482,20 @@ img {
     position: absolute;
     inset: 0;
 
+    z-index: 1;
+
     width: 100%;
     height: 100%;
 
     object-fit: cover;
+    object-position: center top;
+}
+
+.project-overlay {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 2;
 }
 
 .project-vagas {
